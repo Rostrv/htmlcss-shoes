@@ -9,6 +9,7 @@
     position: fixed;
     top:0;
     width: 100%;
+    
 }
 .nav a {
     float: right;
@@ -20,12 +21,15 @@
     width: 20px;
     height: 20px;
     margin: 10px;
+    padding: 2px;
     border-radius: 25px;
+    
 
 }
 
 .image_container{
     height: 100vh;
+  /*  position: relative;*/
 
 }
 
@@ -39,4 +43,23 @@ background-color: green;
 
 #converse{
 background-color: yellow;
+}
+
+#prima{
+     display: block;
+     margin-left:auto;
+     margin-right: auto;
+     margin-top:
+}
+
+#seconda{
+    display: block;
+    margin: auto;
+
+
+}
+
+#terza{
+    display: block;
+    margin: auto;
 }
