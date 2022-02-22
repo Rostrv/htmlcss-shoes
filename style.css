@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    font-size: larger;
+}
 .nav{
     background-color: 0,0,0,0;
     position: fixed;
-    top:0;
     width: 100%;
+    
     
 }
 .nav a {
@@ -24,12 +29,13 @@
     padding: 2px;
     border-radius: 25px;
     
+    
 
 }
 
 .image_container{
     height: 100vh;
-  /*  position: relative;*/
+    position: relative;
 
 }
 
@@ -45,21 +51,23 @@ background-color: green;
 background-color: yellow;
 }
 
-#prima{
-     display: block;
-     margin-left:auto;
-     margin-right: auto;
-     margin-top:
-}
-
-#seconda{
-    display: block;
-    margin: auto;
-
+.prodotto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
 }
 
-#terza{
-    display: block;
-    margin: auto;
+
+.testo{
+    color: yellow;
+    text-align: center;
+   
+}
+
+.testo2{
+    color: green;
+    text-align: center;
+    
 }
